@@ -1,8 +1,11 @@
 # Чек-лист готовности к домашнему заданию
-![Terraform Version]([https://github.com/](https://github.com/Myash-New/ter-homeworks/blob/main/01/01/task01version.jpg)
+![Terraform Version] (https://github.com/Myash-New/ter-homeworks/blob/main/01/01/task01version.jpg)
 
 # Задание 1
 1.2
+согласно этому .gitignore, допустимо сохранить личную, секретную информацию
+# own secret vars store.
+personal.auto.tfvars
 
 1.3
 <details>
@@ -41,11 +44,13 @@ name  = "example_${random_password.random_string_FAKE.resulT}"
 name  = "example_${random_password.random_string.result}"
 ```
 1.5
+
 ![validate](https://github.com/Myash-New/ter-homeworks/blob/main/01/01/task01validate.jpg)
 
 ![docker_ps](https://github.com/Myash-New/ter-homeworks/blob/main/01/01/task01docker_ps.jpg)
 
 1.6
+
 ![docker_ps_after_name_change](https://github.com/Myash-New/ter-homeworks/blob/main/01/01/task01docker_ps2.jpg)
 
 ## -auto-approve
@@ -57,6 +62,7 @@ name  = "example_${random_password.random_string.result}"
 Может пригодится при тестах, может использоваться для ускорения развертывания, при повтороном использовании многократнопроверенного кода. 
 
 1.7
+
 <details>
   <summary>terraform.tfstate _ before_DELETE</summary>
   
