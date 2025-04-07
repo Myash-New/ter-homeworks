@@ -274,7 +274,7 @@ name  = "example_${random_password.random_string.result}"
 </details>
 
 # 1.8
-## keep_locally = true
+## почему не был удалён docker-образ nginx:latest
 В конфигурации ресурса docker_image указано свойство **keep_locally = true**. 
 ```
 resource "docker_image" "nginx" {
