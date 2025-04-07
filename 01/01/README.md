@@ -20,7 +20,7 @@ personal.auto.tfvars
 
 # 1.4
 ## Ошибки в синтаксисе файла main.tf.
-Ошибка 1 строка 24
+Ошибка №1 строка 24
 ```
 resource "docker_image" {
 ```
@@ -28,7 +28,7 @@ resource "docker_image" {
 ```
 resource "docker_image" "nginx" {
 ```
-Ошибка 2 строка 29
+Ошибка №2 строка 29
 ```
 resource "docker_container" "1nginx" {
 ```
@@ -36,7 +36,7 @@ resource "docker_container" "1nginx" {
 ```
 resource "docker_container" "nginx" {
 ```
-Ошибка 3 строка 31
+Ошибка №3 строка 31
 ```
 name  = "example_${random_password.random_string_FAKE.resulT}"
 ```
