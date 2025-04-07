@@ -65,7 +65,7 @@ name  = "example_${random_password.random_string.result}"
 # 1.7
 
 <details>
-  <summary>terraform.tfstate _ before_DELETE</summary>
+  <summary>terraform.tfstate _before_destroy</summary>
   
 ```
 {
@@ -258,7 +258,7 @@ name  = "example_${random_password.random_string.result}"
 
 </details>
 <details>
-  <summary>terraform.tfstate _ after_destroy</summary>
+  <summary>terraform.tfstate _after_destroy</summary>
   
 ```
 {
